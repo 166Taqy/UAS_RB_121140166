@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS user_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    checkbox_status VARCHAR(10) NOT NULL,
+    radio_value VARCHAR(10) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    browser_info VARCHAR(255) NOT NULL,
+    ip_address VARCHAR(15) NOT NULL
+);
