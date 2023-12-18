@@ -1,6 +1,4 @@
 <?php
-// ... existing code ...
-
 // Save to the database
 include('dbconfig.php');
 
