@@ -7,10 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
       handleFormSubmit();
     });
   
-    // Add more event handlers as needed
   
     function handleFormSubmit() {
-      // Validation logic here
       // Append data to table and send to server
       const name = document.getElementById('name').value;
       const email = document.getElementById('email').value;
@@ -28,8 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
       cell2.textContent = email;
       cell3.textContent = checkbox ? 'Checked' : 'Unchecked';
       cell4.textContent = radio || 'N/A';
-  
-      // Send data to the server using AJAX or fetch API
-      // You can also use the FormData object to serialize the form data
+
     }
   });  
